@@ -23,7 +23,7 @@ namespace medicare_hms
         void fillcombo()
         {
 
-            string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+            string mysql = "datasource=localhost;port=3306;username=root;password=@password";
             MySqlConnection myconn = new MySqlConnection(mysql);
             string q = "select * from hospmg.staff_list";
 
@@ -53,7 +53,7 @@ namespace medicare_hms
         }
         void refreshdb()
         {
-            string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+            string mysql = "datasource=localhost;port=3306;username=root;password=@password";
             MySqlConnection myconn = new MySqlConnection(mysql);
 
             MySqlCommand cmdDataBase = new MySqlCommand("select * from hospmg.staff_list;", myconn);
@@ -102,7 +102,7 @@ namespace medicare_hms
             string a = comboBox1.Text;
 
 
-            string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+            string mysql = "datasource=localhost;port=3306;username=root;password=@password";
             MySqlConnection myconn = new MySqlConnection(mysql);
 
             string q = "select * from hospmg.staff_list where staff_name='" + comboBox1.Text + "';";
@@ -158,7 +158,7 @@ namespace medicare_hms
             if (c == 0)
             {
 
-                string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+                string mysql = "datasource=localhost;port=3306;username=root;password=@password";
                 MySqlConnection myconn = new MySqlConnection(mysql);
                 string q = "DELETE FROM `hospmg`.`staff_list` WHERE `staff_id`= '" + this.id.Text + "';";
 
@@ -196,7 +196,7 @@ namespace medicare_hms
             if (c == 0)
             {
 
-                string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+                string mysql = "datasource=localhost;port=3306;username=root;password=@password";
                 MySqlConnection myconn = new MySqlConnection(mysql);
                 string q = "UPDATE `hospmg`.`staff_list` SET `staff_name`= '" + this.name.Text + "', `age`= '" + this.age.Text + "', `gender`= '" + this.sex.Text + "', `address`= '" + this.address.Text + "', `contact no`= '" + this.contact.Text + "', `reports`='" + this.reports.Text + "',`email id`= '" + this.email.Text + "' WHERE `staff_id`= '" + this.id.Text + "';";
 

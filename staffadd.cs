@@ -20,7 +20,7 @@ namespace medicare_hms
         }
         void refreshdb()
         {
-            string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+            string mysql = "datasource=localhost;port=3306;username=root;password=@password";
             MySqlConnection myconn = new MySqlConnection(mysql);
 
             MySqlCommand cmdDataBase = new MySqlCommand("select * from hospmg.staff_list;", myconn);
@@ -50,7 +50,7 @@ namespace medicare_hms
         {
 
 
-            string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+            string mysql = "datasource=localhost;port=3306;username=root;password=@password";
             MySqlConnection myconn = new MySqlConnection(mysql);
             string q = "insert into hospmg.staff_list values ('" + this.id.Text + "','" + this.name.Text + "','" + this.age.Text + "','" + this.sex.Text + "','" + this.address.Text + "','" + this.contact.Text + "','" + this.reports.Text + "','"+this.email.Text+"');";
 

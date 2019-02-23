@@ -45,7 +45,7 @@ namespace medicare_hms
         {
            
 
-            string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+            string mysql = "datasource=localhost;port=3306;username=root;password=@password";
             MySqlConnection myconn = new MySqlConnection(mysql);
 
             string q = "select count(no) from hospmg.room_details ;";
@@ -78,7 +78,7 @@ namespace medicare_hms
         {
 
 
-            string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+            string mysql = "datasource=localhost;port=3306;username=root;password=@password";
             MySqlConnection myconn = new MySqlConnection(mysql);
 
             string q = "select count(Patient_no) from hospmg.patient_details ;";
@@ -111,7 +111,7 @@ namespace medicare_hms
         {
 
 
-            string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+            string mysql = "datasource=localhost;port=3306;username=root;password=@password";
             MySqlConnection myconn = new MySqlConnection(mysql);
 
             string q = "select count(ID) from hospmg.doctor_details ;";
@@ -144,7 +144,7 @@ namespace medicare_hms
         {
 
 
-            string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+            string mysql = "datasource=localhost;port=3306;username=root;password=@password";
             MySqlConnection myconn = new MySqlConnection(mysql);
 
             string q = "select count(staff_id) from hospmg.staff_list ;";

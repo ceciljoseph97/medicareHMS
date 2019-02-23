@@ -34,7 +34,7 @@ namespace medicare_hms
             try
             {
 
-                string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+                string mysql = "datasource=localhost;port=3306;username=root;password=@password";
                 MySqlConnection myconn = new MySqlConnection(mysql);
                 if (comboBox1.Text == "Doctor")
                 {
@@ -147,7 +147,7 @@ namespace medicare_hms
         {
             try
             {   
-                string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+                string mysql = "datasource=localhost;port=3306;username=root;password=@password";
                 MySqlConnection myconn = new MySqlConnection(mysql);
                 string query = "select * from `hospmg`.`" + a + "` where `" + b + "`='" + this.comboBox2.Text + "';";
                 MySqlCommand cmdDataBase = new MySqlCommand(query, myconn);

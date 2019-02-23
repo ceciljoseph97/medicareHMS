@@ -23,7 +23,7 @@ namespace medicare_hms
         }
         void refreshdb()
         {
-            string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+            string mysql = "datasource=localhost;port=3306;username=root;password=@password";
             MySqlConnection myconn = new MySqlConnection(mysql);
 
             MySqlCommand cmdDataBase = new MySqlCommand("select * from hospmg.admin_list;", myconn);
@@ -51,7 +51,7 @@ namespace medicare_hms
         void fillcombo()
         {
 
-            string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+            string mysql = "datasource=localhost;port=3306;username=root;password=@password";
             MySqlConnection myconn = new MySqlConnection(mysql);
             string q = "select * from hospmg.admin_list";
 
@@ -85,7 +85,7 @@ namespace medicare_hms
             if (c == 0)
             {
 
-                string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+                string mysql = "datasource=localhost;port=3306;username=root;password=@password";
                 MySqlConnection myconn = new MySqlConnection(mysql);
                 string q = "UPDATE `hospmg`.`admin_list` SET `name`= '" + this.name.Text + "', `password`= '" + this.password.Text + "', `gender`= '" + this.sex.Text + "', `age`= '" + this.age.Text + "', `address`= '" + this.address.Text + "', `contact no`= '" + this.contact.Text + "', `email id`= '" + this.email.Text + "' WHERE `admin id`= '" + this.adminid.Text + "';";
 
@@ -117,7 +117,7 @@ namespace medicare_hms
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+            string mysql = "datasource=localhost;port=3306;username=root;password=@password";
             MySqlConnection myconn = new MySqlConnection(mysql);
 
             MySqlCommand cmdDataBase = new MySqlCommand("select * from hospmg.admin_list;", myconn);
@@ -158,7 +158,7 @@ namespace medicare_hms
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+            string mysql = "datasource=localhost;port=3306;username=root;password=@password";
             MySqlConnection myconn = new MySqlConnection(mysql);
             string q = "select * from hospmg.admin_list where name='"+comboBox1.Text+"';" ;
 
@@ -205,7 +205,7 @@ namespace medicare_hms
             if (c == 0)
             {
 
-                string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+                string mysql = "datasource=localhost;port=3306;username=root;password=@password";
                 MySqlConnection myconn = new MySqlConnection(mysql);
                 string q = "DELETE FROM `hospmg`.`admin_list` WHERE `admin id`= '" + this.adminid.Text + "';";
 

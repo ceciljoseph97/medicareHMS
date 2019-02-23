@@ -29,7 +29,7 @@ namespace medicare_hms
         {
             try
             {
-                string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+                string mysql = "datasource=localhost;port=3306;username=root;password=@password";
                 MySqlConnection myconn = new MySqlConnection(mysql);
                 string q = "select * from hospmg.admin_list where name='" + this.username_txt.Text + "' and password='" + this.passcode_txt.Text + "' ;";
                 MySqlCommand SelectCommand = new MySqlCommand(q, myconn);

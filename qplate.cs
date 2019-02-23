@@ -23,7 +23,7 @@ namespace medicare_hms
 
             try
             { 
-            string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+            string mysql = "datasource=localhost;port=3306;username=root;password=@password";
             MySqlConnection myconn = new MySqlConnection(mysql);
             string query = textBox1.Text;
             MySqlCommand cmdDataBase = new MySqlCommand(query, myconn);

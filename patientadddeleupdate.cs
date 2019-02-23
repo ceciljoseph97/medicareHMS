@@ -38,7 +38,7 @@ namespace medicare_hms
         void fillcombo()
         {
 
-            string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+            string mysql = "datasource=localhost;port=3306;username=root;password=@password";
             MySqlConnection myconn = new MySqlConnection(mysql);
             string q = "select * from hospmg.patient_details";
 
@@ -69,7 +69,7 @@ namespace medicare_hms
         }
         void refreshdb()
         {
-            string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+            string mysql = "datasource=localhost;port=3306;username=root;password=@password";
             MySqlConnection myconn = new MySqlConnection(mysql);
 
             MySqlCommand cmdDataBase = new MySqlCommand("select * from hospmg.patient_details", myconn);
@@ -119,7 +119,7 @@ namespace medicare_hms
             string a = comboBox1.Text;
 
 
-            string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+            string mysql = "datasource=localhost;port=3306;username=root;password=@password";
             MySqlConnection myconn = new MySqlConnection(mysql);
 
             string q = "select * from hospmg.patient_details where Name='" + comboBox1.Text + "';";
@@ -174,7 +174,7 @@ namespace medicare_hms
         private void add_Click(object sender, EventArgs e)
         {
 
-            string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+            string mysql = "datasource=localhost;port=3306;username=root;password=@password";
             MySqlConnection myconn = new MySqlConnection(mysql);
             string q = "insert into hospmg.patient_details values ('" + this.no.Text + "','" + this.name.Text + "','"+this.age.Text+"','"+ this.sex.Text + "','" + this.address.Text + "','" + this.contact1.Text + "','" + this.contact2.Text + "','" + this.room.Text + "');";
 
@@ -212,7 +212,7 @@ namespace medicare_hms
             if (c == 0)
             {
 
-                string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+                string mysql = "datasource=localhost;port=3306;username=root;password=@password";
                 MySqlConnection myconn = new MySqlConnection(mysql);
                 string q = "UPDATE `hospmg`.`patient_details` SET `Patient_no`= '" + this.no.Text + "', `Name`= '" + this.name.Text + "', `Address`= '" + this.address.Text + "', `Contact Number`= '" + this.contact1.Text + "', `Contact Number 2`= '" + this.contact2.Text + "',`Gender`='" + this.sex.Text + "',`Room No`='" + this.room.Text + "'WHERE `Patient_no`= '" + this.no.Text + "';";
 
@@ -249,7 +249,7 @@ namespace medicare_hms
             if (c == 0)
             {
 
-                string mysql = "datasource=localhost;port=3306;username=root;password=Mariagorethi007@";
+                string mysql = "datasource=localhost;port=3306;username=root;password=@password";
                 MySqlConnection myconn = new MySqlConnection(mysql);
                 string q = "DELETE FROM `hospmg`.`patient_details` WHERE `Patient_no`= '" + this.no.Text + "';";
 
