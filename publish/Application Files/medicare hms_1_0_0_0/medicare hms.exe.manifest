@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="medicare hms.exe" version="1.0.0.0" publicKeyToken="74fa224b2ef1e66d" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="medicare hms" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="medicare hms.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="medicare hms.exe" size="4856280">
+      <assemblyIdentity name="medicare hms" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fXR97TIKCfjWEBTudvKMlUxYk1l+p1SuyhH0wHDWFZQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="424448">
+      <assemblyIdentity name="MySql.Data" version="6.9.9.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>z1JCyodj5/UiC37FF0m11VPrQRt8tszqKfa8jk+yNYc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="medicare hms.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-UV09QCT\DELL" issuerKeyHash="49fc84f727d1aedc9b90a1bfecea98548924891f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ynndXUEb2PdF3DZESsPGDzfsJC30s/eFQ1XwatFrqZs=</DigestValue></Reference></SignedInfo><SignatureValue>NCQkxgN12XG9Lwy7q3dgUlf0zS7Mrfk2Zjt3ezn7NZhm4n84Efuleew0FgO5O15zLwoyy9vY7xF/Kooa+y3KHSBpPIfOKv1WC0Hxw/zbSHbA9QP+Twk1ac8cbtthUrddpWlZNnklNyFm3OZvmtjr2wVvtOGHK5VHLcV4itD2I9E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>td7mripyjBIP85GAm4su8X5l8Tg2q33eXZkkSu2i6FYWj8rDCrd0UTcsA88M2bQ2P5MdDKgj3x6Ya76DhyNp3Rw9KbwYfJhyU9ORXCqkQ8hfichNIiH2fdzztFHihAwM1M2gtDVBnghC8ZwcaSdTTvrYILPHWBN5/0VFWml1U50=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9ba96bd16af0554385f7b3f42d24ec370fc6c34a4436dc45f7d81b415ddd79ca" Description="" Url=""><as:assemblyIdentity name="medicare hms.exe" version="1.0.0.0" publicKeyToken="74fa224b2ef1e66d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-UV09QCT\DELL</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hF3lHfxFsVNPw0GgXaKTeD66B+C8YOw0dS/MRkYhL54=</DigestValue></Reference></SignedInfo><SignatureValue>mzqQSs2crJQnBBoxt8/P0m9MAoj9k1PFw2xq/iRRnqevTNpO9tIgKAcsoUuY360M0+eNWHV9iuYX0q/R2uun6K/HSm1798GtFNviTy3M9EAZ6trIc2TKy3dknUlkq1EsADNFGjqWG4BYwoDgTWbJte4UpjtdDO7p70HmL1RVBaI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>td7mripyjBIP85GAm4su8X5l8Tg2q33eXZkkSu2i6FYWj8rDCrd0UTcsA88M2bQ2P5MdDKgj3x6Ya76DhyNp3Rw9KbwYfJhyU9ORXCqkQ8hfichNIiH2fdzztFHihAwM1M2gtDVBnghC8ZwcaSdTTvrYILPHWBN5/0VFWml1U50=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQGO2xJaVoDZdJeC66VrO+GTANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAFUAVgAwADkAUQBDAFQAXABEAEUATABMMB4XDTE3MDkxNTA3NDkwN1oXDTE4MDkxNTEzNDkwN1owMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBVAFYAMAA5AFEAQwBUAFwARABFAEwATDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtd7mripyjBIP85GAm4su8X5l8Tg2q33eXZkkSu2i6FYWj8rDCrd0UTcsA88M2bQ2P5MdDKgj3x6Ya76DhyNp3Rw9KbwYfJhyU9ORXCqkQ8hfichNIiH2fdzztFHihAwM1M2gtDVBnghC8ZwcaSdTTvrYILPHWBN5/0VFWml1U50CAwEAATANBgkqhkiG9w0BAQsFAAOBgQASM+UWkgjgg/Qp0ylJkeUE4nBpKIe4MIqQjdUIr2eFKwM3GGiQaGRDmpzFCszkUYnEgG2tqRfe2abkF44gjgrZSy7xrBjzqVYXz7ZpORH+6e0sjrnJZ+PDp2B5KH9E9oPpZ0u57x5DB01Wp3YaSp3vI1ATCn09OcoL4RUFqAIe3Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

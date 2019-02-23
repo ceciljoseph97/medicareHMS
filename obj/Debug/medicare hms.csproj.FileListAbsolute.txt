@@ -1,0 +1,36 @@
+c:\users\dell\documents\visual studio 2017\Projects\medicare hms\medicare hms\bin\Debug\medicare hms.exe.config
+c:\users\dell\documents\visual studio 2017\Projects\medicare hms\medicare hms\bin\Debug\medicare hms.exe
+c:\users\dell\documents\visual studio 2017\Projects\medicare hms\medicare hms\bin\Debug\medicare hms.pdb
+c:\users\dell\documents\visual studio 2017\Projects\medicare hms\medicare hms\bin\Debug\MySql.Data.dll
+c:\users\dell\documents\visual studio 2017\Projects\medicare hms\medicare hms\bin\Debug\MySql.Data.xml
+c:\users\dell\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare hms.csprojResolveAssemblyReference.cache
+c:\users\dell\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare_hms.Form1.resources
+c:\users\dell\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare_hms.Properties.Resources.resources
+c:\users\dell\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare hms.csproj.GenerateResource.Cache
+c:\users\dell\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare hms.exe
+c:\users\dell\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare hms.pdb
+c:\users\dell\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare_hms.Form2.resources
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare_hms.Form3.resources
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare_hms.adminadd.resources
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare_hms.adminupdate.resources
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare_hms.staffadd.resources
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare_hms.staffmenu.resources
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare_hms.staffupdate.resources
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare_hms.roomavailability.resources
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare_hms.roomadddeleupdate.resources
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare_hms.doctormenu.resources
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare_hms.doctoradddeleupdate.resources
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare_hms.patientmenu.resources
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare_hms.patientadddeleupdate.resources
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare_hms.billingmenu.resources
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare_hms.qplate.resources
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare_hms.overview.resources
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare_hms.search.resources
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare_hms.UserControl1.resources
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare_hms.main.resources
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare_hms.mainpage.resources
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare hms.csproj.CoreCompileInputs.cache
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\bin\Debug\medicare hms.exe.manifest
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\bin\Debug\medicare hms.application
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare hms.exe.manifest
+C:\Users\DELL\documents\visual studio 2017\Projects\medicare hms\medicare hms\obj\Debug\medicare hms.application
