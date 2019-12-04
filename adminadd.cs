@@ -74,8 +74,6 @@ namespace medicare_hms
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "message", MessageBoxButtons.OK);
-
-
             }
         }
 
@@ -89,9 +87,7 @@ namespace medicare_hms
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
-            
-            
+        {           
                 string mysql = "datasource=localhost;port=3306;username=root;password=@password";
                 MySqlConnection myconn = new MySqlConnection(mysql);
                 string q = "insert into hospmg.admin_list values ('" + this.adminid.Text + "','" + this.name.Text + "','" + this.password.Text + "','" +this.sex.Text+ "'," + this.age.Text + ",'" + this.address.Text + "','" + this.contact.Text + "','" + this.email.Text + "');";
@@ -100,22 +96,12 @@ namespace medicare_hms
                 MySqlDataReader myreader;
             try
             {
-
-
                 myconn.Open();
                 myreader = SelectCommand.ExecuteReader();
                 MessageBox.Show("new admin is added","message",MessageBoxButtons.OK,MessageBoxIcon.Information);
-
-
-                while (myreader.Read())
-                {
-
-
-                }
                 refreshdb();
 
             }
-
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "message", MessageBoxButtons.OK,MessageBoxIcon.Error);
